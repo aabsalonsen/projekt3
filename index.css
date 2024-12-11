@@ -133,26 +133,41 @@ p{
             color:#E2E2E2;
         }
 
-/*INTRO*/
-    .intro__container{
+/*INFO-CONTAINER*/
+    .info-container{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding: 50px;
     }
-        .intro__img{
+        .info-container__img{
             width: 50%;
         }
-        .intro__img img{
+        .info-container__img img{
             width: 100%;
             box-shadow: 10px -10px 0px #2F2F2F;
         }
-        .intro__text {
+        .info-container__text {
             width: 100%;
             flex-direction: column;
             text-align: center;
             justify-content: center;
+        }
+        .info-container__button--kontakt{
+            display: inline-block;
+            border-radius: 8px;
+            margin: 0 auto;
+            padding: 8px 16px;
+            font-size: 10px;
+            font-weight: 400;
+            background-color: #272727;
+            color: #E2E2E2;
+            text-decoration: none;
+        }
+        .info-container__button--kontakt:hover {
+            text-decoration: none;
+            background-color:#2F2F2F;
         }
 
 /*FOTOGRAFI*/
@@ -219,47 +234,6 @@ p{
         .film__button:hover {
         text-decoration: none;
         background-color:#2F2F2F;
-        }
-  
-/*OM MIG*/
-    .aboutme__container{
-        display: flex;
-        flex-direction: column;
-        padding: 50px;
-        align-items: center;
-        justify-content: center;
-    }
-        .aboutme__img{
-        max-width: 50%;
-        max-height: 50%;
-        justify-content: center;
-        }
-        .aboutme__img img{
-        width: 100%;
-        box-shadow: 10px -10px 0px #2F2F2F;
-        }
-        .aboutme__text{
-            width: 100%;
-            flex-direction: column;
-            text-align: center;
-        }
-        .aboutme__text p{
-            margin-bottom: 16px;
-        }
-        .aboutme__button {
-            display: inline-block;
-            border-radius: 8px;
-            margin: 0 auto;
-            padding: 8px 16px;
-            font-size: 10px;
-            font-weight: 400;
-            background-color: #272727;
-            color: #E2E2E2;
-            text-decoration: none;
-        }
-        .aboutme__button:hover {
-            text-decoration: none;
-            background-color:#2F2F2F;
         }
     
 /*FOOTER*/
@@ -381,14 +355,22 @@ p{
         font-size: 20px;
         }
 
-    /*INTRO*/
-    .intro__container{
-        padding: 50px;
+    /*INFO-CONTAINER*/
+    .info-container{
+        padding: 50px 70px;
     }
-        .intro__img{
+        .info-container__img{
             flex: 0 0 25%;
         }
-        
+        .info-container__text{
+            flex: 1;
+        }
+        .info-container__button--kontakt {
+            border-radius: 8px;
+            padding: 8px 16px;
+            font-size: 12px;
+            margin-top: 10px;
+        } 
 
     /*FOTOGRAFI*/
     .foto__container{
@@ -413,38 +395,6 @@ p{
         font-size: 12px;
         }
 
-    /*OM MIG*/
-    .aboutme__container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        width: 70%;
-        margin: 0 auto;
-        padding: 50px;
-        gap: 30px;
-    }
-        .aboutme__img{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex: 0 0 40%;
-        }
-        .aboutme__img img{
-            max-width: 100%;
-            height: auto;
-            object-fit: contain;
-        }
-        .aboutme__text{
-            flex: 1;
-            text-align: left;
-    
-        }
-        .aboutme__button {
-            border-radius: 8px;
-            padding: 8px 16px;
-            font-size: 12px;
-        }
 
     /*FOOTER*/
     footer{
@@ -518,33 +468,31 @@ p{
         font-size: 20px;
         }
 
-    /*INTRO*/
-    .intro__container{
+    /*INFO-CONTAINER*/
+    .info-container{
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         width: 70%;
         margin: 0 auto;
-        padding: 70px;
         gap: 50px;
     }
-    .intro__img{
+    .info-container__img{
         display: flex;
         align-items: center;
         justify-content: center;
-        flex: 0 0 40%;
+        flex: 0 0 35%;
     }
-    .intro__img img{
+    .info-container__img img{
         max-width: 100%;
         height: auto;
         object-fit: contain;
     }
-    .intro__text{
+    .info-container__text{
         flex: 1;
         text-align: left;
     }
-
 
     /*FOTOGRAFI*/
     .foto__container{
@@ -561,23 +509,6 @@ p{
     /*FILM*/
     .film__container{
         height: 600px;
-    }
-
-    /*OM MIG*/
-    .aboutme__container{
-        padding: 70px;
-        gap: 50px;
-    }
-    .aboutme__img{
-        flex: 0 0 30%;
-    }
-    .aboutme__img img{
-        max-width: 100%;
-        object-fit: contain;
-    }
-    .aboutme__text {
-        flex: 1;
-        text-align: left;
     }
 
     /*FOOTER*/
