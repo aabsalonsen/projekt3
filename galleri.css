@@ -27,30 +27,40 @@ p{
     width: 100%;
 }
 /*HEADER*/
-    header {
+header{
     background-color: #272727;
     color: #E2E2E2;
     height: 40px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 18px 40px;
+    justify-content: space-between;
+    padding: 18px 25px;
     }
-        .header__logo{
+        .header__logo__phone{
+            display: flex;
+            align-items: center;
             text-decoration: none;
-            font-size: 10px;
+            font-size: 14px;
+            line-height: 16px;
             font-weight: 600;
+            letter-spacing: 1px;
             color: #E2E2E2;
+            width: 38px;
         }
-        .header__logo:hover{
+        .header__logo{
+            display: none;
+        }
+        .header__logo__phone:hover{
             text-decoration: none;
             color: #5E5E5E;
         }
         .header__navlinks {
-            list-style: none;
             display: flex;
+            align-items: center;
             justify-content: center;
+            list-style: none;
             font-size: 12px;
+            line-height: 16px;
         }
         .header__navlinks li {
             margin: 0px 8px
@@ -63,18 +73,14 @@ p{
             text-decoration: none;
             color: #5E5E5E;
         }
-        a.active {
-            text-decoration: underline;
-            font-weight: 500;
-        }
         .header__social-icons{
             display: flex;
-            gap: 14px;
-
+            align-items: center;
+            justify-content: space-between;
+            width: 38px;
         }
         .fa{
-            font-size: 6px;
-            text-align: center;
+            text-align: right;
             text-decoration: none;
             color: #E2E2E2;
         }
@@ -182,18 +188,38 @@ footer{
     header{
         padding: 20px 60px;
     }
-        .header__logo {
-        font-size: 18px;
+        .header__logo__phone{
+            display: none;
+        }
+        .header__logo{
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600;
+            color: #E2E2E2;
+            width: 110px;
+        }
+        .header__logo:hover{
+            text-decoration: none;
+            color: #5E5E5E;
         }
         .header__navlinks {
-        font-size: 16px;
+            font-size: 18px;
+            height: 20px;
         }
         .header__navlinks li {
-        margin: 0px 12px
+            margin: 0px 12px
         }
         .header__social-icons{
-            font-size: 20px;
+            display: flex;
+            justify-content: right;
+            align-items: center;
             gap: 20px;
+            width: 110px;
+            height: 20px;
+            font-size: 20px;
         }
 
     /*GALLERI*/
@@ -245,17 +271,26 @@ footer{
 
     /*HEADER*/
     header{
-        padding: 20px 80px;
+        padding: 25px 60px;
     }
-        .header__logo {
-        font-size: 18px;
+        .header__logo{
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 600;
+            width: 110px;
         }
         .header__navlinks {
-        font-size: 14px;
+            font-size: 14px;
+            height: 20px;
+        }
+        .header__navlinks li {
+            margin: 0px 12px
         }
         .header__social-icons{
-            font-size: 22px;
             gap: 20px;
+            width: 110px;
+            height: 20px;
+            font-size: 20px;
         }
 
     /*GALLERI*/

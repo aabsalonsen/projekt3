@@ -491,31 +491,24 @@ p{
         padding: 25px 60px;
     }
         .header__logo{
-            display: flex;
-            align-items: center;
-            text-decoration: none;
             font-size: 16px;
             line-height: 20px;
             font-weight: 600;
-            color: #E2E2E2;
             width: 110px;
         }
         .header__navlinks {
-            font-size: 16px;
+            font-size: 14px;
             height: 20px;
         }
         .header__navlinks li {
             margin: 0px 12px
         }
         .header__social-icons{
-            display: flex;
-            justify-content: right;
-            align-items: center;
             gap: 20px;
             width: 110px;
             height: 20px;
             font-size: 20px;
-            }
+        }
         
     /*HERO*/
     .hero__container{
