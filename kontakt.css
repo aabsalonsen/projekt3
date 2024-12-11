@@ -128,33 +128,31 @@ header{
         width: 100%;
     }
 
-/*OM MIG*/
-.aboutme__container{
+/*INFO-CONTAINER*/
+.info-container{
     display: flex;
     flex-direction: column;
-    padding: 50px;
     align-items: center;
     justify-content: center;
+    padding: 50px;
 }
-    .aboutme__img{
-    max-width: 50%;
-    max-height: 50%;
-    justify-content: center;
+    .info-container__img{
+        width: 50%;
     }
-    .aboutme__img img{
-    width: 100%;
-    box-shadow: 10px -10px 0px #2F2F2F;
+    .info-container__img img{
+        width: 100%;
+        box-shadow: 10px -10px 0px #2F2F2F;
     }
-    .aboutme__text{
+    .info-container__text {
         width: 100%;
         flex-direction: column;
         text-align: center;
+        justify-content: center;
     }
-    .aboutme__text p{
+    .info-container__text p{
         margin-bottom: 16px;
     }
-
-    .aboutme__mail button{
+    .info-container__button--mail button{
         display: inline-block;
         border-radius: 8px;
         margin: 0 auto;
@@ -166,7 +164,7 @@ header{
         text-decoration: none;
         border: none;
     }
-    .aboutme__mail button:hover {
+    .info-container__button--mail button:hover {
         text-decoration: none;
         background-color:#2F2F2F;
         cursor: pointer;
@@ -373,38 +371,22 @@ footer{
      display: none;
     }
     
-    /*OM MIG*/
-    .aboutme__container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        width: 70%;
-        margin: 0 auto;
-        padding: 50px;
-        gap: 30px;
+    /*INFO-CONTAINER*/
+    .info-container{
+        padding: 50px 70px;
     }
-        .aboutme__img{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex: 0 0 40%;
+        .info-container__img{
+            flex: 0 0 25%;
         }
-        .aboutme__img img{
-            max-width: 100%;
-            height: auto;
-            object-fit: contain;
-        }
-        .aboutme__text{
+        .info-container__text{
             flex: 1;
-            text-align: left;
-    
         }
-        .aboutme__mail button {
+        .info-container__button--mail button{
             border-radius: 8px;
             padding: 8px 16px;
             font-size: 12px;
-        }
+            margin-top: 10px;
+        } 
 
     /*SKILLS*/
 
@@ -491,19 +473,31 @@ footer{
             font-size: 20px;
         }
 
-     /*OM MIG*/
-     .aboutme__container{
-        padding: 70px;
+    /*INFO-CONTAINER*/
+       .info-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        margin: 0 auto;
         gap: 50px;
     }
-    .aboutme__img{
-        flex: 0 0 30%;
-    }
-    .aboutme__mail button {
-        border-radius: 10px;
-        padding: 10px 18px;
-        font-size: 14px;
-    }
+        .info-container__img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0 0 35%;
+        }
+        .info-container__img img{
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+        .info-container__text{
+            flex: 1;
+            text-align: left;
+        }
       
     /*SKILLS*/
     .skills__container--row{
