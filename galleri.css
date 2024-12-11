@@ -1,0 +1,290 @@
+/*Monserrat by Google Fonts*/
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #E2E2E2;
+    font-family: 'Montserrat', Arial, sans-serif
+}
+
+h1{
+    color:#272727;
+    font-size: 50px;
+    font-weight: 500;
+}
+p{
+    color: #000000;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.wrapper{
+    width: 100%;
+}
+/*HEADER*/
+    header {
+    background-color: #272727;
+    color: #E2E2E2;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 40px;
+    }
+        .header__logo{
+            text-decoration: none;
+            font-size: 10px;
+            font-weight: 600;
+            color: #E2E2E2;
+        }
+        .header__logo:hover{
+            text-decoration: none;
+            color: #5E5E5E;
+        }
+        .header__navlinks {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+        .header__navlinks li {
+            margin: 0px 8px
+        }
+        .header__navlinks a{
+            text-decoration: none;
+            color: #E2E2E2;
+        }
+        .header__navlinks a:hover{
+            text-decoration: none;
+            color: #5E5E5E;
+        }
+        a.active {
+            text-decoration: underline;
+            font-weight: 500;
+        }
+        .header__social-icons{
+            display: flex;
+            gap: 14px;
+
+        }
+        .fa{
+            font-size: 6px;
+            text-align: center;
+            text-decoration: none;
+            color: #E2E2E2;
+        }
+        .fa:hover{
+            text-decoration: none;
+            color: #5E5E5E;
+        }
+
+/*GALLERI*/
+.galleri__container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+}
+    .galleri__img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+    }
+    .galleri__button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        gap: 10px;
+    }
+    .galleri__img--link{
+        width: 80%;
+        height: auto;
+    }
+    
+/*FOOTER*/
+footer{
+        background-color: #272727;
+        color: #E2E2E2;
+        height: 60px;
+        padding: 18px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .footer__logo{
+            text-align: left;
+            text-decoration: none;
+            font-size: 10px;
+            font-weight: 600;
+            color: #E2E2E2;
+        }
+        .footer__logo:hover{
+                color: #5E5E5E;
+        }
+        .footer__navlinks {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+        .footer__navlinks li {
+                margin: 0px 8px
+        }
+        .footer__navlinks a{
+                text-decoration: none;
+                color: #E2E2E2;
+        }
+        .footer__navlinks a:hover{
+                text-decoration: none;
+                color: #5E5E5E;
+        }
+        a.active {
+            text-decoration: underline;
+            font-weight: 500;
+        }
+        .footer__social-icons{
+                display: flex;
+                gap: 14px;
+    
+        }
+        .fa{
+                font-size: 6px;
+                text-align: center;
+                text-decoration: none;
+                color: #E2E2E2;
+        }
+        .fa:hover{
+                text-decoration: none;
+                color: #5E5E5E;
+        }
+
+/*TABLET*/
+@media (min-width:768px){
+    h1{
+        font-size: 60px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    /*HEADER*/
+    header{
+        padding: 20px 60px;
+    }
+        .header__logo {
+        font-size: 18px;
+        }
+        .header__navlinks {
+        font-size: 16px;
+        }
+        .header__navlinks li {
+        margin: 0px 12px
+        }
+        .header__social-icons{
+            font-size: 20px;
+            gap: 20px;
+        }
+
+    /*GALLERI*/
+    .galleri__container{
+     padding: 50px;
+     gap: 50px;
+    }
+        .galleri__img{
+         gap: 40px;
+
+        }
+        .galleri__button{
+         gap: 15px;
+        }
+        .galleri__img--link{
+         width: 60%;
+        }
+
+    /*FOOTER*/
+    footer{
+        height: 80px;
+        padding: 20px 60px;
+        }
+        .footer__logo {
+            font-size: 18px;
+        }
+        .footer__navlinks {
+            font-size: 16px;
+        }
+        .footer__navlinks li {
+            margin: 0px 12px
+        }
+        .footer__social-icons{
+        font-size: 20px;
+        gap: 20px;
+        }
+}
+
+/*DESKTOP*/
+@media (min-width:1024px){
+    h1{
+        font-size: 60px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    /*HEADER*/
+    header{
+        padding: 20px 80px;
+    }
+        .header__logo {
+        font-size: 18px;
+        }
+        .header__navlinks {
+        font-size: 14px;
+        }
+        .header__social-icons{
+            font-size: 22px;
+            gap: 20px;
+        }
+
+    /*GALLERI*/
+    .galleri__container{
+     padding: 70px;
+     gap: 50px;
+    }
+        .galleri__img{
+         display: grid;
+         grid-template-columns: repeat(3,1fr);
+         gap: 30px;
+
+        }
+        .galleri__img--link{
+         width: 90%;
+        }
+
+    /*FOOTER*/
+    footer{
+        padding: 30px 60px;
+        }
+        .footer__logo {
+            font-size: 18px;
+        }
+        .footer__navlinks {
+            font-size: 14px;
+        }
+        .footer__social-icons{
+        font-size: 22px;
+        gap: 20px;
+        }
+}
