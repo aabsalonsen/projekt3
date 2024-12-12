@@ -75,6 +75,10 @@ header{
             text-decoration: none;
             color: #5E5E5E;
         }
+        .header__navlinks a.active{
+            font-weight: 600;
+            text-decoration: underline;
+        }
         .header__social-icons{
             display: flex;
             align-items: center;
