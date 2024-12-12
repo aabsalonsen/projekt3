@@ -28,13 +28,6 @@ h3{
     font-weight: 600;
     font-size: 18px;
 }
-h4{
-    color: #E2E2E2;
-    font-weight: 500;
-    font-size: 16px;
-    margin-top: 12px;
-    margin-bottom: 2px;
-}
 p{
     color: #000000;
     font-size: 16px;
@@ -54,66 +47,66 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 18px 25px;
+}
+    .header__logo__phone{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #E2E2E2;
+        width: 38px;
     }
-        .header__logo__phone{
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            font-size: 14px;
-            line-height: 16px;
-            font-weight: 600;
-            letter-spacing: 1px;
-            color: #E2E2E2;
-            width: 38px;
-        }
-        .header__logo{
-            display: none;
-        }
-        .header__logo__phone:hover{
-            text-decoration: none;
-            color: #5E5E5E;
-        }
-        .header__navlinks {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            list-style: none;
-            font-size: 12px;
-            line-height: 16px;
-        }
-        .header__navlinks li {
-            margin: 0px 8px
-        }
-        .header__navlinks a{
-            text-decoration: none;
-            color: #E2E2E2;
-        }
-        .header__navlinks a:hover{
-            text-decoration: none;
-            color: #5E5E5E;
-        }
-        .header__navlinks a.active{
-            font-weight: 600;
-            text-decoration: underline;
-        }
-        .header__social-icons{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 38px;
-        }
-        .fa{
-            text-align: right;
-            text-decoration: none;
-            color: #E2E2E2;
-        }
-        .fa:hover{
-            text-decoration: none;
-            color: #5E5E5E;
-        }
+    .header__logo{
+        display: none;
+    }
+    .header__logo__phone:hover{
+        text-decoration: none;
+        color: #5E5E5E;
+    }
+    .header__navlinks{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .header__navlinks li{
+        margin: 0px 8px
+    }
+    .header__navlinks a{
+        text-decoration: none;
+        color: #E2E2E2;
+    }
+    .header__navlinks a:hover{
+        text-decoration: none;
+        color: #5E5E5E;
+    }
+    .header__navlinks a.active{
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .header__social-icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 38px;
+    }
+    .fa{
+        text-align: right;
+        text-decoration: none;
+        color: #E2E2E2;
+    }
+    .fa:hover{
+        text-decoration: none;
+        color: #5E5E5E;
+    }
 
 /*HERO*/
-.hero__container {
+.hero-container{
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -126,11 +119,6 @@ header{
     align-items: center;
     justify-content: center;
 }
-    .hero__text {
-        width: 100%;
-        text-align: center;
-        width: 100%;
-    }
 
 /*INFO-CONTAINER*/
 .info-container{
@@ -147,7 +135,7 @@ header{
         width: 100%;
         box-shadow: 10px -10px 0px #2F2F2F;
     }
-    .info-container__text {
+    .info-container__text{
         width: 100%;
         flex-direction: column;
         text-align: center;
@@ -175,7 +163,7 @@ header{
     }
 
 /*SKILLS*/
-.skills__container--row{
+.skills-container__row{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -183,7 +171,7 @@ header{
     background-color: #272727;
     gap: 10px;
 }
-    .skills__container--column{
+    .skills-container__column{
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -192,7 +180,7 @@ header{
         border: solid 1px #E2E2E2;
         padding: 20px;
     }
-    .skills__list-title{
+    .skills-container__list-title{
         display: flex;
         justify-content: center;
         color: #E2E2E2;
@@ -201,62 +189,62 @@ header{
         line-height: 20px;
         margin: 12px 0px 2px 0px;
     }
-    .skills__list{
+    .skills-container__list{
         list-style: none;
         display: flex;
         flex-direction: column;
         justify-content: center;
         font-size: 12px;
     }
-    .skills__list li{
+    .skills-container__list li{
         color: #E2E2E2;
         line-height: 16px;
     }
 
 /*PRISER*/
-.price__container{
+.price-container{
     display: flex;
     flex-direction: column;
     padding: 50px;
     justify-content: center;
     text-align: center;
 }
-    .price__container h2{
+    .price-container h2{
         font-size: 26px;
     }
-    .price-category__container{
+    .price-category-container{
         display: flex;
         flex-direction: column;
         margin-top: 40px;
         margin-bottom: 20px;
     }
-    .price-category__imgs{
+    .price-category-container__imgs{
         display: flex;
         flex-direction: row;
         gap: 10px;
         align-items: center;
         justify-content: center;
     }
-    .price-category__imgs img{
+    .price-category-container__imgs img{
         width: 100px;
         height: 150px;
     }
-    .price-category__text{
+    .price-category-container__text{
         text-align: center;
     }
-    .price-category__text p{
+    .price-category-container__text p{
         margin: 12px 0px;
     }
-    .price-category__text h3{
+    .price-category-container__text h3{
         color: #272727;
         margin: 10px 0px 5px 0px;
     }
-    .price {
+    .price{
         font-weight: 600;
     }
 
 /*FOOTER*/
-.footer__container{
+.footer-container{
     background-color: #272727;
     color: #E2E2E2;
     padding: 12px 20px;
@@ -264,8 +252,8 @@ header{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    }
-    .footer__logo{
+}
+    .footer-container__logo{
         display: flex;
         justify-content: center;
         font-size: 12px;
@@ -274,57 +262,53 @@ header{
         padding: 8px;
         text-decoration: none;
     }
-    .footer__logo:hover{
+    .footer-container__logo:hover{
         text-decoration: none;
         color: #5E5E5E;
     }
-    .footer__social-icons a:hover{
+    .footer-container__navlinks{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 8px;
+    }
+    .footer-container__navlinks li a{
+        text-decoration: none;
+        color: #E2E2E2;
+        margin: 0px 8px
+    }
+    .footer-container__navlinks li a:hover{
         text-decoration: none;
         color: #5E5E5E;
     }
-        .footer__navlinks {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            font-size: 12px;
-            line-height: 16px;
-            padding: 8px;
-        }
-        .footer__navlinks li a{
-            text-decoration: none;
-            color: #E2E2E2;
-            margin: 0px 8px
-        }
-        .footer__navlinks li a:hover{
-            text-decoration: none;
-            color: #5E5E5E;
-        }
-        .footer__navlinks li a.active{
-            font-weight: 600;
-            text-decoration: underline;
-        }
-        .footer__social-icons{
-            display: flex;
-            justify-content: center;
-        }
-        .footer__social-icons a{
-            text-decoration: none;
-            padding: 8px;
-            color: #E2E2E2;
-        }
-        .footer__social-icons a:hover{
-            text-decoration: none;
-            color: #5E5E5E;
-        }
-        .footer__copyright{
-            background-color: #272727;
-            padding: 0px 20px 8px 20px;
-            text-align: center;
-        }
-        .footer__copyright p{
-            font-size: 8px;
-            color: #E2E2E2;
-        }
+    .footer-container__navlinks li a.active{
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .footer-container__social-icons{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-container__social-icons a{
+        text-decoration: none;
+        padding: 8px;
+        color: #E2E2E2;
+    }
+    .footer-container__social-icons a:hover{
+        text-decoration: none;
+        color: #5E5E5E;
+    }
+    .footer-container__copyright{
+        background-color: #272727;
+        padding: 0px 20px 8px 20px;
+        text-align: center;
+    }
+    .footer-container__copyright p{
+        font-size: 8px;
+        color: #E2E2E2;
+    }
 
 /*TABLET*/
 @media (min-width:768px) {
@@ -337,9 +321,6 @@ header{
     }
     h3{
         font-size: 22px;
-    }
-    h4{
-        font-size: 18px;
     }
     p{
         font-size: 18px;
@@ -367,11 +348,11 @@ header{
             text-decoration: none;
             color: #5E5E5E;
         }
-        .header__navlinks {
+        .header__navlinks{
             font-size: 18px;
             height: 20px;
         }
-        .header__navlinks li {
+        .header__navlinks li{
             margin: 0px 12px
         }
         .header__social-icons{
@@ -385,7 +366,7 @@ header{
         }
         
     /*HERO*/
-    .hero__container {
+    .hero-container{
      display: none;
     }
     
@@ -410,46 +391,46 @@ header{
 
 
     /*PRISER*/
-        .price__container h2{
-            font-size: 30px;
-        }
-        .price-category__container{
+    .price-container h2{
+        font-size: 30px;
+    }
+        .price-category-container{
             padding: 0px 50px;
         }
-        .price-category__imgs img{
+        .price-category-container__imgs img{
             width: 200px;
             height: 300px;
         }
-        .price-category__text p{
+        .price-category-container__text p{
             margin: 16px 0px;
         }
-        .price-category__text h3{
+        .price-category-container__text h3{
             margin: 16px 0px 8px 0px;
         }
 
    /*FOOTER*/
-   .footer__container{
+   .footer-container{
     width: auto;
     }
-    .footer__logo{
-        font-size: 16px;
-        padding: 12px;
-    }
-        .footer__navlinks {
+        .footer-container__logo{
+            font-size: 16px;
+            padding: 12px;
+        }
+        .footer-container__navlinks{
             font-size: 18px;
             padding: 12px;
         }
-        .footer__social-icons{
+        .footer-container__social-icons{
             font-size: 18px;
         }
-        .footer__social-icons a{
+        .footer-container__social-icons a{
             padding: 12px;
             color: #E2E2E2;
         }
-        .footer__copyright{
+        .footer-container__copyright{
             padding: 0px 20px 12px 20px;
         }
-        .footer__copyright p{
+        .footer-container__copyright p{
             font-size: 12px;
         }
 }
@@ -466,9 +447,6 @@ header{
     h3{
         font-size: 26px;
     }
-    h4{
-        font-size: 24px;
-    }
     p{
         font-size: 16px;
         line-height: 24px;
@@ -484,11 +462,11 @@ header{
             font-weight: 600;
             width: 110px;
         }
-        .header__navlinks {
+        .header__navlinks{
             font-size: 14px;
             height: 20px;
         }
-        .header__navlinks li {
+        .header__navlinks li{
             margin: 0px 12px
         }
         .header__social-icons{
@@ -525,42 +503,42 @@ header{
         }
       
     /*SKILLS*/
-    .skills__container--row{
+    .skills-container__row{
         gap: 15px;
     }
-    .skills__list-title{
-        font-size: 18px;
-    }
-    .skills__list li{
-        font-size: 16px;
-        line-height: 22px;
-    }
+        .skills-container__list-title{
+            font-size: 18px;
+        }
+        .skills-container__list li{
+            font-size: 16px;
+            line-height: 22px;
+        }
 
     /*PRISER*/
 
      /*FOOTER*/
-    .footer__container{
+    .footer-container{
         width: auto;
-        }
-        .footer__logo{
+    }
+        .footer-container__logo{
             font-size: 16px;
             padding: 12px;
         }
-            .footer__navlinks {
-                font-size: 14px;
-                padding: 12px;
-            }
-            .footer__social-icons{
-                font-size: 18px;
-            }
-            .footer__social-icons a{
-                padding: 12px;
-                color: #E2E2E2;
-            }
-            .footer__copyright{
-                padding: 0px 20px 12px 20px;
-            }
-            .footer__copyright p{
-                font-size: 12px;
-            }
+        .footer-container__navlinks{
+            font-size: 14px;
+            padding: 12px;
+        }
+        .footer-container__social-icons{
+            font-size: 18px;
+        }
+        .footer-container__social-icons a{
+            padding: 12px;
+            color: #E2E2E2;
+        }
+        .footer-container__copyright{
+            padding: 0px 20px 12px 20px;
+        }
+        .footer-container__copyright p{
+            font-size: 12px;
+        }
 }
