@@ -189,60 +189,70 @@ header{
 
 
 /*FOOTER*/
-footer{
+.footer__container{
     background-color: #272727;
     color: #E2E2E2;
-    height: 60px;
-    padding: 18px 40px;
+    padding: 12px 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     }
-        .footer__logo{
-        text-align: left;
-        text-decoration: none;
-        font-size: 10px;
-        font-weight: 600;
-        color: #E2E2E2;
-        }
-        .footer__logo:hover{
-            color: #5E5E5E;
-        }
-        .footer__navlinks {
-        list-style: none;
+    .footer__logo{
         display: flex;
         justify-content: center;
         font-size: 12px;
+        font-weight: 600;
+        color: #E2E2E2;
+        padding: 8px;
+        text-decoration: none;
+    }
+    .footer__logo:hover{
+        text-decoration: none;
+        color: #5E5E5E;
+    }
+    .footer__social-icons a:hover{
+        text-decoration: none;
+        color: #5E5E5E;
+    }
+        .footer__navlinks {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            font-size: 12px;
+            line-height: 16px;
+            padding: 8px;
         }
-        .footer__navlinks li {
-            margin: 0px 8px
-        }
-        .footer__navlinks a{
+        .footer__navlinks li a{
             text-decoration: none;
             color: #E2E2E2;
+            margin: 0px 8px
         }
-        .footer__navlinks a:hover{
+        .footer__navlinks li a:hover{
             text-decoration: none;
             color: #5E5E5E;
-        }
-        a.active {
-            text-decoration: underline;
-            font-weight: 500;
         }
         .footer__social-icons{
             display: flex;
-            gap: 14px;
-
+            justify-content: center;
         }
-        .fa{
-            font-size: 6px;
-            text-align: center;
+        .footer__social-icons a{
             text-decoration: none;
+            padding: 8px;
             color: #E2E2E2;
         }
-        .fa:hover{
+        .footer__social-icons a:hover{
             text-decoration: none;
             color: #5E5E5E;
+        }
+        .footer__copyright{
+            background-color: #272727;
+            padding: 0px 20px 8px 20px;
+            text-align: center;
+        }
+        .footer__copyright p{
+            font-size: 8px;
+            color: #E2E2E2;
         }
 
 /*TABLET*/
@@ -334,23 +344,30 @@ footer{
     }
 
     /*FOOTER*/
-     footer{
-        height: 80px;
-        padding: 20px 60px;
+    .footer__container{
+        width: auto;
         }
-        .footer__logo {
-            font-size: 18px;
-        }
-        .footer__navlinks {
+        .footer__logo{
             font-size: 16px;
+            padding: 12px;
         }
-        .footer__navlinks li {
-            margin: 0px 12px
-        }
-        .footer__social-icons{
-        font-size: 20px;
-        gap: 20px;
-        }
+            .footer__navlinks {
+                font-size: 18px;
+                padding: 12px;
+            }
+            .footer__social-icons{
+                font-size: 18px;
+            }
+            .footer__social-icons a{
+                padding: 12px;
+                color: #E2E2E2;
+            }
+            .footer__copyright{
+                padding: 0px 20px 12px 20px;
+            }
+            .footer__copyright p{
+                font-size: 12px;
+            }
 }
     
 /*DESKTOP*/
@@ -428,17 +445,28 @@ footer{
         }
     
     /*FOOTER*/
-    footer{
-        padding: 30px 60px;
+    .footer__container{
+        width: auto;
         }
-        .footer__logo {
-            font-size: 18px;
+        .footer__logo{
+            font-size: 16px;
+            padding: 12px;
         }
-        .footer__navlinks {
-            font-size: 14px;
-        }
-        .footer__social-icons{
-        font-size: 22px;
-        gap: 20px;
-        }
+            .footer__navlinks {
+                font-size: 14px;
+                padding: 12px;
+            }
+            .footer__social-icons{
+                font-size: 18px;
+            }
+            .footer__social-icons a{
+                padding: 12px;
+                color: #E2E2E2;
+            }
+            .footer__copyright{
+                padding: 0px 20px 12px 20px;
+            }
+            .footer__copyright p{
+                font-size: 12px;
+            }
 }
