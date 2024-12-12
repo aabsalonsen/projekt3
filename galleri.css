@@ -35,66 +35,66 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 18px 25px;
+}
+    .header__logo__phone{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #E2E2E2;
+        width: 38px;
     }
-        .header__logo__phone{
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            font-size: 14px;
-            line-height: 16px;
-            font-weight: 600;
-            letter-spacing: 1px;
-            color: #E2E2E2;
-            width: 38px;
-        }
-        .header__logo{
-            display: none;
-        }
-        .header__logo__phone:hover{
-            text-decoration: none;
-            color: #5E5E5E;
-        }
-        .header__navlinks {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            list-style: none;
-            font-size: 12px;
-            line-height: 16px;
-        }
-        .header__navlinks li {
-            margin: 0px 8px
-        }
-        .header__navlinks a{
-            text-decoration: none;
-            color: #E2E2E2;
-        }
-        .header__navlinks a:hover{
-            text-decoration: none;
-            color: #5E5E5E;
-        }
-        .header__navlinks a.active{
-            font-weight: 600;
-            text-decoration: underline;
-        }
-        .header__social-icons{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 38px;
-        }
-        .fa{
-            text-align: right;
-            text-decoration: none;
-            color: #E2E2E2;
-        }
-        .fa:hover{
-            text-decoration: none;
-            color: #5E5E5E;
-        }
+    .header__logo{
+        display: none;
+    }
+    .header__logo__phone:hover{
+        text-decoration: none;
+        color: #5E5E5E;
+    }
+    .header__navlinks{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .header__navlinks li{
+        margin: 0px 8px
+    }
+    .header__navlinks a{
+        text-decoration: none;
+        color: #E2E2E2;
+    }
+    .header__navlinks a:hover{
+        text-decoration: none;
+        color: #5E5E5E;
+    }
+    .header__navlinks a.active{
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .header__social-icons{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 38px;
+    }
+    .fa{
+        text-align: right;
+        text-decoration: none;
+        color: #E2E2E2;
+    }
+    .fa:hover{
+        text-decoration: none;
+        color: #5E5E5E;
+    }
 
 /*GALLERI*/
-.galleri__container{
+.galleri-container{
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -102,27 +102,26 @@ header{
     justify-content: center;
     gap: 40px;
 }
-    .galleri__img{
+    .galleri-container__img{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 30px;
-
     }
-    .galleri__button{
+    .galleri-container__button{
         display: flex;
         flex-direction: column;
         align-items: center;
         text-decoration: none;
         gap: 10px;
     }
-    .galleri__img--link{
+    .galleri-container__img--link{
         width: 80%;
         height: auto;
     }
     
 /*FOOTER*/
-.footer__container{
+.footer-container{
     background-color: #272727;
     color: #E2E2E2;
     padding: 12px 20px;
@@ -130,8 +129,8 @@ header{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    }
-    .footer__logo{
+}
+    .footer-container__logo{
         display: flex;
         justify-content: center;
         font-size: 12px;
@@ -140,57 +139,53 @@ header{
         padding: 8px;
         text-decoration: none;
     }
-    .footer__logo:hover{
+    .footer-container__logo:hover{
         text-decoration: none;
         color: #5E5E5E;
     }
-    .footer__social-icons a:hover{
+    .footer-container__navlinks{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 8px;
+    }
+    .footer-container__navlinks li a{
+        text-decoration: none;
+        color: #E2E2E2;
+        margin: 0px 8px
+    }
+    .footer-container__navlinks li a:hover{
         text-decoration: none;
         color: #5E5E5E;
     }
-        .footer__navlinks {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            font-size: 12px;
-            line-height: 16px;
-            padding: 8px;
-        }
-        .footer__navlinks li a{
-            text-decoration: none;
-            color: #E2E2E2;
-            margin: 0px 8px
-        }
-        .footer__navlinks li a:hover{
-            text-decoration: none;
-            color: #5E5E5E;
-        }
-        .footer__navlinks li a.active{
-            font-weight: 600;
-            text-decoration: underline;
-        }
-        .footer__social-icons{
-            display: flex;
-            justify-content: center;
-        }
-        .footer__social-icons a{
-            text-decoration: none;
-            padding: 8px;
-            color: #E2E2E2;
-        }
-        .footer__social-icons a:hover{
-            text-decoration: none;
-            color: #5E5E5E;
-        }
-        .footer__copyright{
-            background-color: #272727;
-            padding: 0px 20px 8px 20px;
-            text-align: center;
-        }
-        .footer__copyright p{
-            font-size: 8px;
-            color: #E2E2E2;
-        }
+    .footer-container__navlinks li a.active{
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .footer-container__social-icons{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-container__social-icons a{
+        text-decoration: none;
+        padding: 8px;
+        color: #E2E2E2;
+    }
+    .footer-container__social-icons a:hover{
+        text-decoration: none;
+        color: #5E5E5E;
+    }
+    .footer-container__copyright{
+        background-color: #272727;
+        padding: 0px 20px 8px 20px;
+        text-align: center;
+    }
+    .footer-container__copyright p{
+        font-size: 8px;
+        color: #E2E2E2;
+    }
 
 /*TABLET*/
 @media (min-width:768px){
@@ -223,11 +218,11 @@ header{
             text-decoration: none;
             color: #5E5E5E;
         }
-        .header__navlinks {
+        .header__navlinks{
             font-size: 18px;
             height: 20px;
         }
-        .header__navlinks li {
+        .header__navlinks li{
             margin: 0px 12px
         }
         .header__social-icons{
@@ -241,46 +236,45 @@ header{
         }
 
     /*GALLERI*/
-    .galleri__container{
+    .galleri-container{
      padding: 50px;
      gap: 50px;
     }
-        .galleri__img{
+        .galleri-container__img{
          gap: 40px;
-
         }
-        .galleri__button{
+        .galleri-container__button{
          gap: 15px;
         }
-        .galleri__img--link{
+        .galleri-container__img--link{
          width: 60%;
         }
 
     /*FOOTER*/
-    .footer__container{
+    .footer-container{
         width: auto;
-        }
-        .footer__logo{
+    }
+        .footer-container__logo{
             font-size: 16px;
             padding: 12px;
         }
-            .footer__navlinks {
-                font-size: 18px;
-                padding: 12px;
-            }
-            .footer__social-icons{
-                font-size: 18px;
-            }
-            .footer__social-icons a{
-                padding: 12px;
-                color: #E2E2E2;
-            }
-            .footer__copyright{
-                padding: 0px 20px 12px 20px;
-            }
-            .footer__copyright p{
-                font-size: 12px;
-            }
+        .footer-container__navlinks{
+            font-size: 18px;
+            padding: 12px;
+        }
+        .footer-container__social-icons{
+            font-size: 18px;
+        }
+        .footer-container__social-icons a{
+            padding: 12px;
+            color: #E2E2E2;
+        }
+        .footer-container__copyright{
+            padding: 0px 20px 12px 20px;
+        }
+        .footer-container__copyright p{
+            font-size: 12px;
+        }
 }
 
 /*DESKTOP*/
@@ -293,7 +287,6 @@ header{
         line-height: 20px;
     }
 
-
     /*HEADER*/
     header{
         padding: 25px 60px;
@@ -304,11 +297,11 @@ header{
             font-weight: 600;
             width: 110px;
         }
-        .header__navlinks {
+        .header__navlinks{
             font-size: 14px;
             height: 20px;
         }
-        .header__navlinks li {
+        .header__navlinks li{
             margin: 0px 12px
         }
         .header__social-icons{
@@ -319,43 +312,42 @@ header{
         }
 
     /*GALLERI*/
-    .galleri__container{
+    .galleri-container{
      padding: 70px;
      gap: 50px;
     }
-        .galleri__img{
+        .galleri-container__img{
          display: grid;
          grid-template-columns: repeat(3,1fr);
          gap: 30px;
-
         }
-        .galleri__img--link{
+        .galleri-container__img--link{
          width: 90%;
         }
 
     /*FOOTER*/
-    .footer__container{
+    .footer-container{
         width: auto;
-        }
-        .footer__logo{
+    }
+        .footer-container__logo{
             font-size: 16px;
             padding: 12px;
         }
-            .footer__navlinks {
-                font-size: 14px;
-                padding: 12px;
-            }
-            .footer__social-icons{
-                font-size: 18px;
-            }
-            .footer__social-icons a{
-                padding: 12px;
-                color: #E2E2E2;
-            }
-            .footer__copyright{
-                padding: 0px 20px 12px 20px;
-            }
-            .footer__copyright p{
-                font-size: 12px;
-            }
+        .footer-container__navlinks{
+            font-size: 14px;
+            padding: 12px;
+        }
+        .footer-container__social-icons{
+            font-size: 18px;
+        }
+        .footer-container__social-icons a{
+            padding: 12px;
+            color: #E2E2E2;
+        }
+        .footer-container__copyright{
+            padding: 0px 20px 12px 20px;
+        }
+        .footer-container__copyright p{
+            font-size: 12px;
+        }
 }
