@@ -164,6 +164,7 @@ p{
             background-color: #272727;
             color: #E2E2E2;
             text-decoration: none;
+            margin-top: 8px;
         }
         .info-container__button--kontakt:hover {
             text-decoration: none;
@@ -237,57 +238,62 @@ p{
         }
     
 /*FOOTER*/
-    footer{
+    .footer__container{
     background-color: #272727;
     color: #E2E2E2;
-    height: 60px;
-    padding: 18px 40px;
+    padding: 14px 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
     }
-        .footer__logo{
-        text-align: left;
-        text-decoration: none;
-        font-size: 10px;
-        font-weight: 600;
-        color: #E2E2E2;
-        }
-        .footer__logo:hover{
-            color: #5E5E5E;
-        }
-        .footer__navlinks {
-        list-style: none;
+    .footer__social-icons{
         display: flex;
         justify-content: center;
-        font-size: 12px;
+    }
+    .footer__social-icons a{
+        text-decoration: none;
+        padding: 10px;
+        color: #E2E2E2;
+    }
+    .footer__social-icons a:hover{
+        text-decoration: none;
+        color: #5E5E5E;
+    }
+        .footer__navlinks {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            font-size: 12px;
+            line-height: 16px;
+            padding: 10px;
         }
-        .footer__navlinks li {
+        .footer__navlinks li a{
+            text-decoration: none;
+            color: #E2E2E2;
             margin: 0px 8px
         }
-        .footer__navlinks a{
-            text-decoration: none;
-            color: #E2E2E2;
-        }
-        .footer__navlinks a:hover{
+        .footer__navlinks li a:hover{
             text-decoration: none;
             color: #5E5E5E;
         }
-        .footer__social-icons{
+        .footer__logo{
             display: flex;
-            gap: 14px;
-
+            justify-content: center;
+            font-size: 12px;
+            color: #E2E2E2;
+            padding: 10px;
         }
-        .fa{
-            font-size: 6px;
+        .footer__copyright{
+            background-color: #272727;
+            padding: 10px 20px;
             text-align: center;
-            text-decoration: none;
+        }
+        .footer__copyright p{
+            font-size: 8px;
             color: #E2E2E2;
         }
-        .fa:hover{
-            text-decoration: none;
-            color: #5E5E5E;
-        }
+       
 
 /*TABLET*/
 @media (min-width:768px) {
