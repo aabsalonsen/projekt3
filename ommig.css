@@ -202,7 +202,9 @@ header{
     .skills-container__list li{
         color: #E2E2E2;
         line-height: 16px;
+        font-weight: 200;
     }
+
 
 /*FOOTER*/
 .footer-container{
