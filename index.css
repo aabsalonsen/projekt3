@@ -53,7 +53,7 @@ p{
             color: #E2E2E2;
             width: 76px;
         }
-        .header__logo__phone:hover{
+        .header__logo:hover{
             text-decoration: none;
             color: #5E5E5E;
         }
@@ -91,7 +91,7 @@ p{
             padding: 6px 12px;
 
         }
-        .header__button--kontakt a:hover{
+        .header__button--kontakt:hover{
             background-color: #5E5E5E;
         }
        
@@ -155,7 +155,7 @@ p{
         }
         .info-container__button--kontakt:hover{
             text-decoration: none;
-            background-color:#2F2F2F;
+            background-color:#5E5E5E;
         }
 
 /*FOTOGRAFI*/
@@ -189,7 +189,7 @@ p{
         }
         .foto-container__button--galleri:hover{
             text-decoration: none;
-            background-color:#2F2F2F;
+            background-color:#5E5E5E;
         }
 
 /*FILM*/
@@ -224,7 +224,7 @@ p{
         }
         .film-container__button--film:hover{
         text-decoration: none;
-        background-color:#2F2F2F;
+        background-color:#5E5E5E;
         }
     
 /*FOOTER*/
