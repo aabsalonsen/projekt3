@@ -24,7 +24,7 @@ h2{
     margin-bottom: 5px;
 }
 h3{
-    color: #272727;
+    color: #E2E2E2;
     font-weight: 600;
     font-size: 18px;
 }
@@ -131,14 +131,13 @@ header{
     align-items: center;
     justify-content: center;
     padding: 50px;
-    background-color: #272727;
 }
     .info-container__img{
         width: 50%;
     }
     .info-container__img img{
         width: 100%;
-        box-shadow: 10px -10px 0px #E2E2E2;
+        box-shadow: 10px -10px 0px #2F2F2F;
     }
     .info-container__text{
         width: 100%;
@@ -146,12 +145,24 @@ header{
         text-align: center;
         justify-content: center;
     }
-    .info-container__text h2{
-        color: #E2E2E2;
-    }
     .info-container__text p{
         margin-top: 10px;
+    }
+    .info-container__button--kontakt{
+        display: inline-block;
+        border-radius: 8px;
+        margin: 0 auto;
+        padding: 8px 16px;
+        font-size: 10px;
+        font-weight: 400;
+        background-color: #272727;
         color: #E2E2E2;
+        text-decoration: none;
+        margin-top: 8px;
+    }
+    .info-container__button--kontakt:hover{
+        text-decoration: none;
+        background-color:#5E5E5E;
     }
 
 /*SKILLS*/
@@ -160,6 +171,7 @@ header{
     flex-direction: row;
     justify-content: center;
     padding: 50px;
+    background-color: #272727;
     gap: 10px;
 }
     .skills-container__column{
@@ -168,12 +180,13 @@ header{
         text-align: center;
         align-content: center;
         width: 50%;
-        border: solid 1px #272727;
+        border: solid 1px #E2E2E2;
         padding: 20px;
     }
     .skills-container__list-title{
         display: flex;
         justify-content: center;
+        color: #E2E2E2;
         font-size: 16px;
         font-weight: 500;
         line-height: 20px;
@@ -187,8 +200,9 @@ header{
         font-size: 12px;
     }
     .skills-container__list li{
+        color: #E2E2E2;
         line-height: 16px;
-        font-weight: 300;
+        font-weight: 200;
     }
 
 /*PROJEKTER*/
@@ -199,6 +213,8 @@ header{
     justify-content: center;
     padding: 50px;
     background-color: #272727;
+    border-bottom: solid 1px #5E5E5E;
+
 }
     .projekt-container__text{
         width: 100%;
@@ -228,47 +244,6 @@ header{
         color: #E2E2E2;
         font-weight: 500;
         margin: 10px;
-    }
-
-/*KONTAKT-CONTAINER*/
-.kontakt-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-}
-    .kontakt-container__img{
-        width: 50%;
-    }
-    .kontakt-container__img img{
-        width: 100%;
-        box-shadow: 10px -10px 0px #2F2F2F;
-    }
-    .kontakt-container__text{
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-    }
-    .kontakt-container__text p{
-        margin-top: 10px;
-    }
-    .kontakt-container__button--kontakt{
-        display: inline-block;
-        border-radius: 8px;
-        margin: 0 auto;
-        padding: 8px 16px;
-        font-size: 10px;
-        font-weight: 400;
-        background-color: #272727;
-        color: #E2E2E2;
-        text-decoration: none;
-        margin-top: 8px;
-    }
-    .kontakt-container__button--kontakt:hover{
-        text-decoration: none;
-        background-color:#5E5E5E;
     }
 
 /*FOOTER*/
@@ -405,40 +380,22 @@ header{
         .info-container__text{
             flex: 1;
         }
-    
-    /*SKILLS*/
-    .skills-container__list{
-        font-size: 14px;
-    }
-    .skills-container__list li{
-        line-height: 18px;
-    }
-
-    /*PROJEKTER*/
-.projekt-container{
-    padding: 50px 70px;
-}
-    .projekt-container__container-one{
-        display: flex;
-        flex-direction: row;
-    }
-
-    /*KONTAKT-CONTAINER*/
-    .kontakt-container{
-        padding: 50px 70px;
-    }
-        .kontakt-container__img{
-            flex: 0 0 25%;
-        }
-        .kontakt-container__text{
-            flex: 1;
-        }
-        .kontakt-container__button--mail{
+        .info-container__button--mail{
             border-radius: 8px;
             padding: 8px 16px;
             font-size: 12px;
             margin-top: 10px;
         } 
+
+    /*PROJEKTER*/
+.projekt-container{
+    padding: 50px 70px;
+
+}
+    .projekt-container__container-one{
+        display: flex;
+        flex-direction: row;
+    }
 
     /*FOOTER*/
    .footer-container{
@@ -538,32 +495,6 @@ header{
         .skills-container__list li{
             font-size: 16px;
             line-height: 22px;
-        }
-
-     /*KONTAKT-CONTAINER*/
-     .kontakt-container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        width: 70%;
-        margin: 0 auto;
-        gap: 50px;
-    }
-        .kontakt-container__img{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex: 0 0 35%;
-        }
-        .kontakt-container__img img{
-            max-width: 100%;
-            height: auto;
-            object-fit: contain;
-        }
-        .kontakt-container__text{
-            flex: 1;
-            text-align: left;
         }
     
     /*FOOTER*/
