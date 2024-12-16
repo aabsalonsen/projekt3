@@ -156,44 +156,6 @@ header{
         background-color: #5E5E5E;
     }
 
-/*SKILLS*/
-.skills-container__row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 50px;
-    background-color: #272727;
-    gap: 10px;
-}
-    .skills-container__column{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-content: center;
-        width: 50%;
-        border: solid 1px #E2E2E2;
-        padding: 20px;
-    }
-    .skills-container__list-title{
-        display: flex;
-        justify-content: center;
-        color: #E2E2E2;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 20px;
-        margin: 12px 0px 2px 0px;
-    }
-    .skills-container__list{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        font-size: 12px;
-    }
-    .skills-container__list li{
-        color: #E2E2E2;
-        line-height: 16px;
-    }
 
 /*PRISER*/
 .price-container{
@@ -374,9 +336,6 @@ header{
             margin-top: 10px;
         } 
 
-    /*SKILLS*/
-
-
     /*PRISER*/
     .price-container h2{
         font-size: 30px;
@@ -482,20 +441,6 @@ header{
             flex: 1;
             text-align: left;
         }
-      
-    /*SKILLS*/
-    .skills-container__row{
-        gap: 15px;
-    }
-        .skills-container__list-title{
-            font-size: 18px;
-        }
-        .skills-container__list li{
-            font-size: 16px;
-            line-height: 22px;
-        }
-
-    /*PRISER*/
 
      /*FOOTER*/
     .footer-container{
