@@ -243,6 +243,7 @@ header{
     .projekt-container__vid{
         height: 150px;
         width: 300px;
+        border: solid 1px #E2E2E2;
     }
     .projekt-container__vid-text p{
         color: #E2E2E2;
