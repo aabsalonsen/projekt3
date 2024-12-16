@@ -324,7 +324,7 @@ header{
      /*HERO*/
      .hero-container{
         height: 200px;
-       }
+    }
            .hero-container__text p{
            font-size: 20px;
            }
@@ -406,12 +406,6 @@ header{
         }
         .header__navlinks li{
             margin: 0px 12px
-        }
-        .header__social-icons{
-            gap: 20px;
-            width: 110px;
-            height: 20px;
-            font-size: 20px;
         }
 
      /*INFO-CONTAINER*/
