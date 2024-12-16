@@ -240,6 +240,10 @@ header{
         justify-content: center;
         padding: 20px;
     }
+    .projekt-container__vid{
+        height: 150px;
+        width: 300px;
+    }
     .projekt-container__vid-text p{
         color: #E2E2E2;
         font-weight: 500;
@@ -487,6 +491,7 @@ header{
       
     /*SKILLS*/
     .skills-container__row{
+        padding: 50px 70px;
         gap: 15px;
     }
         .skills-container__list-title{
@@ -496,6 +501,12 @@ header{
             font-size: 16px;
             line-height: 22px;
         }
+
+    /*PROJEKTER*/
+   .projekt-container__vid{
+        height: 300px;
+        width: 500px
+    }
     
     /*FOOTER*/
     .footer-container{
